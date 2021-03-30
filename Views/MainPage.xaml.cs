@@ -3,7 +3,7 @@
 namespace SQLiteExample {
 	public partial class MainPage : ContentPage {
 		public MainPage() {
-			BindingContext = new MainPageViewModel();
+			this.BindingContext = new MainPageViewModel();
 			InitializeComponent();
 		}
 	}
